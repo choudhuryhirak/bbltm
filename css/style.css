@@ -1,0 +1,476 @@
+.navbar-inverse
+{
+    background-color: #792162;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color: #f5f5f5;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover 
+{
+    color: #fff;
+    background-color: #6e1d5b;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a:hover 
+{
+    color: #fff;
+    background-color: #6e1d5b;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+    color: #fff;
+    background-color: #6e1d5b; 
+    
+}
+
+
+
+
+html, body {
+    text-align: center;
+  width: auto;
+  overflow-x: hidden
+}
+
+div.navbar-header
+{
+    width: 100%;
+}
+
+#wrapper{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+     
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    
+    }
+
+#logoimg
+{
+padding-left: 140px;
+padding-top: 20px;
+    
+}
+
+#primarycta
+{
+    padding: 10px,10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    width: 230px;
+    margin-right: -100px
+    
+    
+}
+
+#primaryctaa
+{
+    padding: 10px,10px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    width: 230px;
+    
+    
+    
+}
+
+
+#blockcta
+{
+    text-align:center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 100%;
+}
+
+#primarycta2
+{
+    margin-bottom: 20px;
+    font-size:20px
+    
+}
+
+#brand
+{
+    height: 150px;
+    width: 100%;
+    max-width: 1400px;
+    padding-top: 0px;
+    padding-right: 1.25em;
+    padding-bottom: 1em;
+    padding-left: 0px;
+    color: #fff;
+    position: relative;
+    
+    
+}
+
+#logoimg > img
+{
+    min-width: 230px;
+    display: block;
+    margin: auto;
+    
+}
+
+#cta
+{
+ text-align: center;
+    padding-top: 60px;
+}
+
+#homejumbo{
+    margin-top: -20px;
+    max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    
+    
+        
+}
+
+#homejumbo video
+{
+    margin-top: -170px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    
+    
+}
+
+#videoblock
+{
+    text-align: center;
+}
+
+#homejumbo #details
+{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: -60px;
+    padding: 15px;    
+    text-align: center;
+    position: relative;
+    color: white;
+    max-width: 100%;
+    
+     
+}
+
+#aboutimg
+{
+    max-width: 100%;
+    margin-top: -170px;
+}
+
+
+#heading
+{
+    text-align: center;
+    color: #6c6d6f;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#headingabout
+{
+    text-align: left;
+    color: #6c6d6f;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+#heading2
+{
+    text-align: center;
+    color: #6c6d6f;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+
+#headingcontent
+{
+    text-align: center;
+    font-size:20px;
+    font-weight: 400;
+}
+
+#headingcontentabout
+{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 200;
+    
+}
+
+#headingcontent2
+{
+    text-align: center;
+    font-size:24px;
+    font-weight: 600;
+}
+
+
+#policies
+{
+    text-align: center;
+}
+
+
+#policiescontent
+{
+    
+    font-size: 17px;
+    font-weight: 200;
+    
+}
+
+#eventshome{
+    text-align: center;
+    
+}
+
+#sponsors
+{
+    
+    text-align: center;
+    
+}
+
+footer
+{
+ background-color: #222222;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+
+@media(max-width: 1200px)
+{
+    #youtubev > iframe
+    {
+        
+        max-width:100%;
+        max-height: 100%;
+            
+    }
+    
+    #homejumbo video
+    {
+    margin-top: -250px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+        
+    }
+    
+}
+
+
+
+@media (max-width: 992px)
+{
+            
+    #wrapper
+    {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    #homejumbo video
+    {
+    margin-top: -150px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+        
+    }
+        
+    #youtubev > iframe
+    {
+        
+        max-width: 100%;
+        max-height: 100%;
+            
+    }
+    
+    #blockcta
+    {
+        text-align: center;    
+        
+    }
+    
+    #primarycta
+    {
+    
+    padding: 2px,2px;
+    border-radius: 10px;
+    font-size: 10px;
+    height: 60px;
+    width: 160px;     
+    }
+        
+    #primaryctaa
+    {
+    
+    padding: 2px,2px;
+    border-radius: 10px;
+    font-size: 10px;
+    height: 60px;
+    width: 160px;     
+    }
+    
+       
+    #ctaspan
+    {
+        font-size:13px;
+            
+    }
+        
+    img#logoimgs
+    {
+       margin-top: 7px;
+        
+            
+    }
+    
+}
+
+
+@media (max-width: 768px)
+{
+    
+     #wrapper
+    {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    
+   #primarycta
+    {
+    margin-left: 60px;
+    padding: 2px,2px;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 60px;
+    width: 170px;  
+    
+    
+    }
+   
+    #primaryctaa{
+    margin-left: 60px;
+    padding: 2px,2px;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 60px;
+    width: 170px; 
+    }
+    
+    
+    #blockcta
+    {
+        text-align: center;
+        height: 100%;
+    }
+        
+      
+        
+    #homejumbo video
+    {
+    margin-top: -70px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+        
+    }
+    
+   #youtubev > iframe
+    {
+        
+        max-width: 100%;
+        max-height: 100%;
+            
+    }
+   
+     #blockcta
+    {
+        text-align: center;
+    }
+    
+    
+    
+}
+
+
+@media (max-width: 450px)
+{
+    #homejumbo video
+    {
+        display: none;
+    }
+    
+    #homejumbo
+    {
+     max-height: 100%;
+        max-width: 100%;
+        background-image: url(../img/cover.png);
+    }
+    
+    #youtubev > iframe
+    {
+        
+        max-width: 100%;
+        max-height: 100%;
+            
+    }
+    
+   #primarycta
+    {
+    margin-left: -60px;
+    margin-top: -20px;
+    padding: 2px,2px;
+    border-radius: 3px;
+    font-size: 10px;
+    height: 60px;
+    width: 150px;   
+    }
+    
+    #primaryctaa
+    {
+    margin-left: 10px;
+    margin-top: -20px;
+    padding: 2px,2px;
+    border-radius: 3px;
+    font-size: 10px;
+    height: 60px;
+    width: 150px; 
+    }
+    
+     #blockcta
+    {
+        text-align: center;
+    }
+        
+}
