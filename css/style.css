@@ -1,3 +1,10 @@
+button.navbar-toggle.collapsed, button.navbar-toggle
+{
+    
+    margin-right: 3px;
+    
+}
+
 .navbar-inverse
 {
     background-color: #792162;
