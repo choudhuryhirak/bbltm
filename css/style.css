@@ -254,6 +254,19 @@ padding-top: 20px;
     
 }
 
+#reasons1
+{
+    border: 2px solid;
+    border-color: #f6f6f6;
+    padding: 25px;
+}
+
+#reasons1>col-sm
+{
+    border: 2px solid;
+    border-color: #f6f6f6;   
+}
+
 #sponsors
 {
     
