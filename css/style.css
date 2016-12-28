@@ -1,3 +1,13 @@
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+
+
 button.navbar-toggle.collapsed, button.navbar-toggle
 {
     
@@ -35,7 +45,9 @@ button.navbar-toggle.collapsed, button.navbar-toggle
     
 }
 
-
+navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #91201d;
+}
 
 
 html, body {
@@ -209,7 +221,7 @@ padding-top: 20px;
 {
     text-align: left;
     color: #6c6d6f;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -218,9 +230,20 @@ padding-top: 20px;
 {
     text-align: center;
     color: #6c6d6f;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
 }
+
+
+
+#heading2t
+{
+    text-align: center;
+    color: #6c6d6f;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 
 
@@ -386,7 +409,7 @@ footer
     
     padding: 2px,2px;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 0px;
     height: 60px;
     width: 160px;     
     }
@@ -396,7 +419,7 @@ footer
     
     padding: 2px,2px;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 0px;
     height: 60px;
     width: 160px;     
     }
@@ -433,7 +456,7 @@ footer
     {
     margin-left: 60px;
     padding: 2px,2px;
-    border-radius: 10px;
+    border-radius: 0px;
     font-size: 18px;
     height: 60px;
     width: 170px;  
@@ -444,7 +467,7 @@ footer
     #primaryctaa{
     margin-left: 60px;
     padding: 2px,2px;
-    border-radius: 10px;
+    border-radius: 0px;
     font-size: 18px;
     height: 60px;
     width: 170px; 
@@ -488,6 +511,14 @@ footer
 
 @media (max-width: 450px)
 {
+    #logoimgs
+    {
+        max-width: 200px;
+        
+    }
+    
+    
+    
     #homejumbo video
     {
         display: none;
@@ -495,6 +526,8 @@ footer
     
     #homejumbo
     {
+        margin-left: 2px;
+        border-radius: 0px;
         max-height: 100%;
         max-width: 100%;
         background-image: url(../img/cover.png);
@@ -513,7 +546,7 @@ footer
     margin-left: -60px;
     margin-top: -20px;
     padding: 2px,2px;
-    border-radius: 3px;
+    border-radius: 0px;
     font-size: 10px;
     height: 60px;
     width: 150px;   
@@ -524,7 +557,7 @@ footer
     margin-left: 10px;
     margin-top: -20px;
     padding: 2px,2px;
-    border-radius: 3px;
+    border-radius: 0px;
     font-size: 10px;
     height: 60px;
     width: 150px; 
