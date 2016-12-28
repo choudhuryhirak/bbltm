@@ -7,7 +7,7 @@ button.navbar-toggle.collapsed, button.navbar-toggle
 
 .navbar-inverse
 {
-    background-color: #792162;
+    background-color: #cc2e2a;
     border: none;
 }
 
@@ -19,19 +19,19 @@ button.navbar-toggle.collapsed, button.navbar-toggle
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover 
 {
     color: #fff;
-    background-color: #6e1d5b;
+    background-color: #c9302c;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a:hover 
 {
     color: #fff;
-    background-color: #6e1d5b;
+    background-color: #c9302c;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
 {
     color: #fff;
-    background-color: #6e1d5b; 
+    background-color: #91201d; 
     
 }
 
@@ -72,7 +72,7 @@ padding-top: 20px;
 #primarycta
 {
     padding: 10px,10px;
-    border-radius: 10px;
+    border-radius: 0px;
     font-size: 20px;
     height: 60px;
     width: 230px;
@@ -84,7 +84,7 @@ padding-top: 20px;
 #primaryctaa
 {
     padding: 10px,10px;
-    border-radius: 10px;
+    border-radius: 0px;
     font-size: 20px;
     height: 60px;
     width: 230px;
@@ -153,7 +153,7 @@ padding-top: 20px;
 }
 
 #homejumbo{
-    max-height: 100%;
+    max-height: 400px;
     width: 100%;
     overflow: hidden;
     background-color: white;
@@ -302,14 +302,36 @@ footer
     text-align: left;
 }
 
+@media(max-width:1300px)
+{
+    
+    #youtubev > iframe
+    {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    #homejumbo video
+    {
+    margin-top: -250px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    
+    
+    
+}
+
+
+
 
 @media(max-width: 1200px)
 {
     #youtubev > iframe
     {
         
-        max-width:100%;
-        max-height: 100%;
+        max-width:90%;
+        max-height:90%;
             
     }
     
