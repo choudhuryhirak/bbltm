@@ -49,6 +49,52 @@ navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #91201d;
 }
 
+ul.dropdown-menu.dropdownhover-bottom, ul.dropdown-menu.dropdownhover-top,  ul.dropdown-menu.dropdownhover-right
+{
+    background-color: #91201d;
+    opacity: 0.95;
+}
+
+
+
+
+.dropdown-menu>li>a
+{
+    color: #fff;
+}
+
+.dropdown-menu > li.open > a 
+{
+    background-color: #F5F5F5;
+    color: #fff;
+    text-decoration: none;
+}
+
+li.dropdown.open > a
+{
+     background-color: #91201d;
+}
+
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: #cc2e2a;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover
+{
+    background-color: #cc2e2a;
+    border: none;
+    
+}
+
+.dropdown-menu > li.open > a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 html, body {
     text-align: center;
@@ -324,6 +370,10 @@ footer
     color: white;
     text-align: left;
 }
+
+/*--------------------------*/
+
+
 
 @media(max-width:1300px)
 {
