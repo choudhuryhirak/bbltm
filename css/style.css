@@ -55,7 +55,11 @@ ul.dropdown-menu.dropdownhover-bottom, ul.dropdown-menu.dropdownhover-top,  ul.d
     opacity: 0.95;
 }
 
-
+ul.dropdown-menu>li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 .dropdown-menu>li>a
@@ -95,6 +99,12 @@ li.dropdown.open > a
     color: #ffffff;
     text-decoration: none;
 }
+
+
+
+/*start here!*/
+
+
 
 html, body {
     text-align: center;
@@ -348,20 +358,48 @@ padding-top: 20px;
     border-color: #f6f6f6;   
 }
 
-#sponsors
-{
-    
-    text-align: center;
-    
-}
-
-
 
 .well
 {
     background-color: rgb(248, 247, 255);
     border: none;
 }
+
+
+/*pagination links*/
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    margin: 0 4px;
+}
+
+ul.pagination li a.active {
+    background-color: #cc2e2a;
+    color: white;
+    border-radius: 50px;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #fafafa;}
+
+
+
+
+
 
 footer
 {
@@ -395,7 +433,7 @@ footer
     
 }
 
-
+/*--------------------------*/
 
 
 @media(max-width: 1200px)
@@ -419,7 +457,7 @@ footer
     
 }
 
-
+/*--------------------------*/
 
 @media (max-width: 992px)
 {
@@ -490,7 +528,8 @@ footer
     
 }
 
-
+/*--------------------------*/
+    
 @media (max-width: 768px)
 {
     
@@ -558,6 +597,7 @@ footer
     
 }
 
+/*--------------------------*/
 
 @media (max-width: 450px)
 {
