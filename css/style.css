@@ -1,4 +1,4 @@
-#html5-watermark
+div#html5-watermark
 {
  display: none !important;   
 }
@@ -171,7 +171,13 @@ padding-top: 20px;
 
 .aboutbtn
 {
-    border-radius: 0px;
+    border-radius: 0px;   
+    
+}
+
+#aboutbtncon
+{
+    padding-left: 60px;
     
     
 }
@@ -219,6 +225,7 @@ padding-top: 20px;
 {    float:none;
     align-items: center;
     padding: 2px;
+    padding-left: 50px;
 }
 
 
@@ -283,7 +290,11 @@ padding-top: 20px;
 
 
 
-
+ol.breadcrumb
+{
+    padding-left: 50px;
+    
+}
 
 
 
@@ -310,6 +321,7 @@ padding-top: 20px;
 #headingabout
 {
     text-align: left;
+    padding-left: 50px;
     color: #6c6d6f;
     font-size: 25px;
     font-weight: 500;
@@ -347,6 +359,7 @@ padding-top: 20px;
 #headingcontentabout
 {
     text-align: left;
+    padding-left: 50px;
     font-size: 17px;
     font-weight: 300;
     
@@ -363,6 +376,7 @@ padding-top: 20px;
 #policies
 {
     text-align: left;
+    padding-left: 50px;
 }
 
 
@@ -371,7 +385,7 @@ padding-top: 20px;
     
     font-size: 17px;
     font-weight: 300;
-    
+    padding-left: 50px;
 }
 
 #eventshome{
@@ -462,6 +476,7 @@ footer
     height: auto;
     max-width: 100%;
     overflow: hidden;
+    }
     
     
     
@@ -489,7 +504,52 @@ footer
         
     }
     
-}
+
+    #headingabout
+    {
+        padding-left: 40px;
+    }    
+    
+    #headingcontentabout
+    {
+        padding-left: 40px;                
+    }
+    
+    #policies
+    {
+        padding-left: 40px;
+        
+    }
+    
+    #policiescontentabout
+    {
+        padding-left: 40px;
+    }
+    
+    #venuegroup
+    {
+        padding-left: 40px;
+    }
+    
+ 
+    ol.breadcrumb
+    {
+        padding-left: 40px;
+    
+    }
+    
+    #aboutbtncon
+    {
+    padding-left: 50px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    }
 
 /*--------------------------*/
 
@@ -560,6 +620,49 @@ footer
             
     }
     
+    #headingabout
+    {
+        padding-left: 30px;
+    }    
+    
+    #headingcontentabout
+    {
+        padding-left: 30px;                
+    }
+    
+    #policies
+    {
+        padding-left: 30px;
+        
+    }
+    
+    #policiescontentabout
+    {
+        padding-left: 30px;
+    }
+
+    #venuegroup
+    {
+        padding-left: 30px;
+    }
+    
+
+    ol.breadcrumb
+    {
+        padding-left: 30px;
+    
+    }
+    #aboutbtncon
+    {
+        padding-left: 40px;
+    
+    
+    }
+    
+    
+    
+    
+    
 }
 
 /*--------------------------*/
@@ -627,6 +730,47 @@ footer
         text-align: center;
     }
     
+    #headingabout
+    {
+        padding-left: 25px;
+    }    
+    
+    #headingcontentabout
+    {
+        padding-left: 25px;                
+    }
+    
+    #policies
+    {
+        padding-left: 25px;
+        
+    }
+    
+    #policiescontentabout
+    {
+        padding-left: 25px;
+    }
+    
+    #venuegroup
+    {
+        padding-left: 25px;
+    }
+    
+    ol.breadcrumb
+    {
+        padding-left: 25px;
+    
+    }
+    
+    #aboutbtncon
+    {
+        padding-left: 30px;
+    
+    
+    }
+    
+    
+    
     
     
 }
@@ -690,6 +834,51 @@ footer
      #blockcta
     {
         text-align: center;
+        padding-left: 0px;
     }
         
+    #headingabout
+    {
+        text-align: center;
+        padding-left: 0px;
+    }    
+    
+    #headingcontentabout
+    {
+        text-align: center;
+        padding-left: 0px;
+        
+    }
+    
+    #policies
+    {
+        text-align: center;
+        padding-left: 0px;
+        
+    }
+    
+    #policiescontentabout
+    {
+        text-align: center;
+        padding-left: 0px;
+    }
+    
+    #venuegroup
+    {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    ol.breadcrumb
+    {
+        padding-left: 0px;
+    
+    }
+    
+    #aboutbtncon
+    {
+    text-align: center;
+    
+    
+    }
 }
