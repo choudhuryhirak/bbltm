@@ -13,7 +13,11 @@ div#html5-watermark
 
 
 
-
+nav.navbar.navbar-static-top.navbar-inverse>div.container
+{
+    margin-left: 80px;
+    
+}
 
 
 button.navbar-toggle.collapsed, button.navbar-toggle
@@ -659,7 +663,11 @@ footer
     
     }
     
-    
+    nav.navbar.navbar-static-top.navbar-inverse>div.container
+    {
+        margin-left: 0px;
+
+    }
     
     
     
@@ -769,6 +777,12 @@ footer
     
     }
     
+    
+    nav.navbar.navbar-static-top.navbar-inverse>div.container
+    {
+        margin-left: 0px;
+
+    }
     
     
     
@@ -881,4 +895,12 @@ footer
     
     
     }
+    
+    
+    nav.navbar.navbar-static-top.navbar-inverse>div.container
+    {
+        margin-left: 0px;
+
+    }
+    
 }
